@@ -8,7 +8,7 @@ RUN chown -R www-data:www-data /var/lib/nginx
 
 VOLUME ["/data", "/etc/nginx/site-enabled", "/var/log/nginx"]
 
-WORDKIR /etc/nginx
+WORKDIR /etc/nginx
 
 CMD ["nginx"]
 
